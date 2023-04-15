@@ -17,3 +17,5 @@ let ref2  = &mut s;
 ## Vec
 
 When iterating over a &vec, the iterator is a refernce to whatever element is being currently iterated over.  If the iterated value needs to change, you must dereference (*i) the value to reassume ownership.
+
+---
